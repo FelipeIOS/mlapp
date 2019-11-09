@@ -23,6 +23,8 @@
 		B282218423772E5F0081161D /* Seller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B282218323772E5F0081161D /* Seller.swift */; };
 		B282218623772E860081161D /* SellerAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B282218523772E860081161D /* SellerAddress.swift */; };
 		B282218823772EA30081161D /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = B282218723772EA30081161D /* City.swift */; };
+		B282218A237735980081161D /* searchStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2822189237735980081161D /* searchStore.swift */; };
+		B282218C23773AAA0081161D /* searchAPIStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B282218B23773AAA0081161D /* searchAPIStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		B282218323772E5F0081161D /* Seller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seller.swift; sourceTree = "<group>"; };
 		B282218523772E860081161D /* SellerAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellerAddress.swift; sourceTree = "<group>"; };
 		B282218723772EA30081161D /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		B2822189237735980081161D /* searchStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchStore.swift; sourceTree = "<group>"; };
+		B282218B23773AAA0081161D /* searchAPIStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchAPIStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +166,8 @@
 		B25EB2162377283C00D5BEEA /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				B2822189237735980081161D /* searchStore.swift */,
+				B282218B23773AAA0081161D /* searchAPIStore.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -277,7 +283,9 @@
 				B25EB1F0237726D700D5BEEA /* SceneDelegate.swift in Sources */,
 				B282218423772E5F0081161D /* Seller.swift in Sources */,
 				B282217C23772DE70081161D /* Product.swift in Sources */,
+				B282218C23773AAA0081161D /* searchAPIStore.swift in Sources */,
 				B282218023772E290081161D /* Attribute.swift in Sources */,
+				B282218A237735980081161D /* searchStore.swift in Sources */,
 				B282217E23772E070081161D /* Address.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
