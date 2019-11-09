@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		B25EB1EE237726D700D5BEEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25EB1ED237726D700D5BEEA /* AppDelegate.swift */; };
 		B25EB1F0237726D700D5BEEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25EB1EF237726D700D5BEEA /* SceneDelegate.swift */; };
-		B25EB1F2237726D700D5BEEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25EB1F1237726D700D5BEEA /* ViewController.swift */; };
+		B25EB1F2237726D700D5BEEA /* HomeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25EB1F1237726D700D5BEEA /* HomeVc.swift */; };
 		B25EB1F5237726D700D5BEEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25EB1F3237726D700D5BEEA /* Main.storyboard */; };
 		B25EB1F8237726D700D5BEEA /* mlApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B25EB1F6237726D700D5BEEA /* mlApp.xcdatamodeld */; };
 		B25EB1FA237726DB00D5BEEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B25EB1F9237726DB00D5BEEA /* Assets.xcassets */; };
 		B25EB1FD237726DB00D5BEEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25EB1FB237726DB00D5BEEA /* LaunchScreen.storyboard */; };
 		B25EB208237726DB00D5BEEA /* mlAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25EB207237726DB00D5BEEA /* mlAppTests.swift */; };
+		B282217A23772A0D0081161D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B282217923772A0D0081161D /* BaseViewController.swift */; };
+		B282217C23772DE70081161D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B282217B23772DE70081161D /* Product.swift */; };
+		B282217E23772E070081161D /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = B282217D23772E070081161D /* Address.swift */; };
+		B282218023772E290081161D /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = B282217F23772E290081161D /* Attribute.swift */; };
+		B282218223772E460081161D /* Installments.swift in Sources */ = {isa = PBXBuildFile; fileRef = B282218123772E460081161D /* Installments.swift */; };
+		B282218423772E5F0081161D /* Seller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B282218323772E5F0081161D /* Seller.swift */; };
+		B282218623772E860081161D /* SellerAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B282218523772E860081161D /* SellerAddress.swift */; };
+		B282218823772EA30081161D /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = B282218723772EA30081161D /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +39,7 @@
 		B25EB1EA237726D700D5BEEA /* mlApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mlApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25EB1ED237726D700D5BEEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B25EB1EF237726D700D5BEEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B25EB1F1237726D700D5BEEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B25EB1F1237726D700D5BEEA /* HomeVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVc.swift; sourceTree = "<group>"; };
 		B25EB1F4237726D700D5BEEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B25EB1F7237726D700D5BEEA /* mlApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mlApp.xcdatamodel; sourceTree = "<group>"; };
 		B25EB1F9237726DB00D5BEEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +48,14 @@
 		B25EB203237726DB00D5BEEA /* mlAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mlAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25EB207237726DB00D5BEEA /* mlAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mlAppTests.swift; sourceTree = "<group>"; };
 		B25EB209237726DB00D5BEEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B282217923772A0D0081161D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B282217B23772DE70081161D /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		B282217D23772E070081161D /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		B282217F23772E290081161D /* Attribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attribute.swift; sourceTree = "<group>"; };
+		B282218123772E460081161D /* Installments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Installments.swift; sourceTree = "<group>"; };
+		B282218323772E5F0081161D /* Seller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seller.swift; sourceTree = "<group>"; };
+		B282218523772E860081161D /* SellerAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellerAddress.swift; sourceTree = "<group>"; };
+		B282218723772EA30081161D /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +97,12 @@
 		B25EB1EC237726D700D5BEEA /* mlApp */ = {
 			isa = PBXGroup;
 			children = (
+				B25EB2162377283C00D5BEEA /* Network */,
+				B25EB2152377281200D5BEEA /* Presenter */,
+				B25EB214237727F800D5BEEA /* Model */,
+				B25EB212237727D500D5BEEA /* View */,
 				B25EB1ED237726D700D5BEEA /* AppDelegate.swift */,
 				B25EB1EF237726D700D5BEEA /* SceneDelegate.swift */,
-				B25EB1F1237726D700D5BEEA /* ViewController.swift */,
 				B25EB1F3237726D700D5BEEA /* Main.storyboard */,
 				B25EB1F9237726DB00D5BEEA /* Assets.xcassets */,
 				B25EB1FB237726DB00D5BEEA /* LaunchScreen.storyboard */,
@@ -100,6 +119,51 @@
 				B25EB209237726DB00D5BEEA /* Info.plist */,
 			);
 			path = mlAppTests;
+			sourceTree = "<group>";
+		};
+		B25EB212237727D500D5BEEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B25EB213237727E900D5BEEA /* ViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B25EB213237727E900D5BEEA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B25EB1F1237726D700D5BEEA /* HomeVc.swift */,
+				B282217923772A0D0081161D /* BaseViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B25EB214237727F800D5BEEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B282217B23772DE70081161D /* Product.swift */,
+				B282218723772EA30081161D /* City.swift */,
+				B282218523772E860081161D /* SellerAddress.swift */,
+				B282218323772E5F0081161D /* Seller.swift */,
+				B282217D23772E070081161D /* Address.swift */,
+				B282217F23772E290081161D /* Attribute.swift */,
+				B282218123772E460081161D /* Installments.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B25EB2152377281200D5BEEA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B25EB2162377283C00D5BEEA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,10 +267,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B282218623772E860081161D /* SellerAddress.swift in Sources */,
+				B282217A23772A0D0081161D /* BaseViewController.swift in Sources */,
+				B282218823772EA30081161D /* City.swift in Sources */,
 				B25EB1F8237726D700D5BEEA /* mlApp.xcdatamodeld in Sources */,
-				B25EB1F2237726D700D5BEEA /* ViewController.swift in Sources */,
+				B25EB1F2237726D700D5BEEA /* HomeVc.swift in Sources */,
+				B282218223772E460081161D /* Installments.swift in Sources */,
 				B25EB1EE237726D700D5BEEA /* AppDelegate.swift in Sources */,
 				B25EB1F0237726D700D5BEEA /* SceneDelegate.swift in Sources */,
+				B282218423772E5F0081161D /* Seller.swift in Sources */,
+				B282217C23772DE70081161D /* Product.swift in Sources */,
+				B282218023772E290081161D /* Attribute.swift in Sources */,
+				B282217E23772E070081161D /* Address.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
